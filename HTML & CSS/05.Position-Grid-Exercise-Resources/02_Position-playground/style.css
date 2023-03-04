@@ -1,0 +1,36 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+body{
+    margin: 0px;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(to right, #397CD9, #00DDB6);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(to right, #D049C1, #FFA05F);
+}
+
+.viewport{
+    height: 100vh;
+    position: relative;
+}
+
+.card{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+i{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    bottom: 20px;
+}
+

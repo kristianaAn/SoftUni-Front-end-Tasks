@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main aside";
+    grid-template-columns: 1000px 50px;
+    gap: 10px;
+    height: 100vh;
+    margin: 30px 100px;
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    grid-area: header;
+    display: block;
+}
+
+main{
+    grid-area: main;
+    width: 80%;
+}
+
+aside{
+    grid-area: aside;
+}
+
+header p{
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: 20px;
+    padding-left: 660px;
+}
+
+header nav ul li{
+   display: inline-block;
+   margin-left: 50px;
+}
+
+
+.title{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    margin-top: -30px;
+    border: 1px solid black;
+}
+
+img{
+    background: rgb(255, 255, 255);
+    padding: 8px 8px;
+    border: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+a{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+.first-image{
+    float: right;
+}
+
+.first-section{
+    float: left;
+    width: 100%;
+    word-wrap: normal;
+}
+
+.quote,  .quote blockquote, .quote p{
+    display: inline-block;
+}
+
+.quote blockquote {
+    width: 43%;
+    font-style: italic;
+    vertical-align: top;
+    font-family: Georgia, serif;
+}
+
+.quote p{
+    width: 47%;
+    border-right: 5px solid lightgray;
+    padding-right: 40px;
+}
+
+div{
+    padding-top: 30px;
+    text-align: end
+}
+
+.second-image{
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.third-section p{
+    display: inline-block;
+    
+    width: 70%;
+    float: right;
+}
+
+section{
+    padding-bottom: 20px;
+}
+
+h1{
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 1.2;
+}
+
+aside ul li{
+    padding-top: 5px;
+}
+
+aside section h3{
+    font-weight: lighter;
+    font-size: 1em;
+    line-height: 1.2;
+}
